@@ -1,0 +1,19 @@
+# окружение Python и PyCharm
+.venv/
+__pycache__/
+.idea/
+
+# настройки почты (в репозитории только образец smtp.example.ini)
+smtp.ini
+
+# персональные данные сотрудников — на GitHub не загружаем
+rassylka.db
+sotrudniki.xlsx
+sotrudniki.csv
+raschetnye_listki/
+*.eml
+*ведомость*
+*Ведомость*
+
+# свои тестовые данные держим здесь — эта папка в Git не попадает
+private/
